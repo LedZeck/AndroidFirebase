@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        rootRef = new Firebase("https://crowdwheater.firebaseio.com");
+        rootRef = new Firebase("application url here"); //Application reference to Firebase
 
         textView = (TextView) findViewById(R.id.textViewOne);
         listView = (ListView) findViewById(R.id.listViewOne);
